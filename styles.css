@@ -1,8 +1,104 @@
 /* Layout */
+body {
+    background-color: #2b273a;
+}
 
+ul {
+    padding: 0%;
+}
 
+ul li {
+    list-style: none;
+}
+
+#socials {
+    margin-left: 150px;
+}
+
+#socials ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#nav {
+    font-family: 'Roboto Condensed';
+    color: #6a6775;
+    text-align: right;
+    margin-right: 150px;
+}
+
+#nav ul li {
+    display: inline;
+    margin: 10px 0px 100px 100px;
+    font-size: 18px;
+}
+
+hr {
+    width: 40%;
+    color: #f2bb00;
+    margin-left: 150px;
+    margin-top: 0px;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#short-bio {
+    color: #ffffff;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+.words {
+    margin-right: 150px;
+    margin-left: 20px;
+}
+
+br {
+    margin-top: auto;
+}
+
+footer {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #979797;
+    margin-top: 50px;
+}
+
+#footer-line {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #f2bb00;
+}
 
 
 
 
 /* Typography */
+
+h1 {
+    font-family: 'Roboto Condensed', 'sans-serif';
+    font-size: 120px;
+    color: #ffffff;
+    margin: 80px 0px 0px 150px;
+}
+
+h2{
+    font-family: 'Square Peg', 'serif';
+    font-size: 50px;
+    color: #979797;
+    margin: 0px 0px 20px 150px;
+}
+
+p {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+}
